@@ -1,0 +1,89 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90%;
+
+  background-image: url('../../resources/images/hero-bg.jpg');
+  background-position: center center;
+  background-size: cover;
+  box-shadow: inset 0 -40px 40px rgba(0,0,0,0.65);
+
+  padding: 25px 5% 50px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__title {
+  font-family: $headlineFont;
+  font-size: em(102);
+  line-height: 0.9em;
+  color: $white;
+  text-transform: uppercase;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.45);
+}
+
+.hero__sub-title {
+  font-family: $subHeadFont;
+  font-size: em(28);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.0em;
+  color: $white;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.45);
+}
+
+.hero__points {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__points {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.point {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 3%;
+}
+
+.point__graphic {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.point__title {
+  font-family: $headlineFont;
+  font-size: em(28);
+  color: $white;
+  text-transform: uppercase;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.45);
+}
+
+.point__sub-title {
+  font-family: $subHeadFont;
+  font-size: em(14);
+  font-weight: 400;
+  font-style: italic;
+  color: $white;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.45);
+  margin: 0;
+}

@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+}
+
+.branding {
+  float: left;
+}
+
+.navigation {
+  align-self: flex-end;
+  float: right;
+
+  span {
+    font-family: $headlineFont;
+    font-size: em(22);
+    color: $white;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.45);
+  }
+
+  a {
+    font-family: $headlineFont;
+    line-height: 0.9em;
+    color: $white;
+    text-decoration: none;
+  }
+}
