@@ -13,6 +13,10 @@
 /**
  * Place Your Code Here
 */
-$(document).ready(function() {
-  console.log('dafuck');
-});
+
+var article = {
+  title: 'hey',
+  date: '3/3/2018',
+  summary: 'Hey this is a summary.'
+};
+console.log(article.title);
